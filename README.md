@@ -21,17 +21,13 @@ The Zip folder will be used later in this demo.
 
 Log in and Launch Azure Portal, and open the Cloud Shell.
 
-Create a new resource group, choose a name. eg: appResourceGroup
-
+Create a new resource group. eg: appResourceGroup.
 `az group create --name appResourceGroup --location "West Europe"`
 
-Create an appservice plan, this example will use the S1 pricing tier
-
+Create an appservice plan. eg: nodeAppServicePlan, using S1 pricing tier.
 `az appservice plan create --name nodeAppServicePlan --resource-group appResourceGroup --sku S1`
 
-Create the web app in the appservice plan that was just created in the previous step. Note previous
-names of Resource Group and AppServicePlan.
-
+Create the web app in the appservice plan that was just created in the previous step. eg: nodeAppServicePlan
 `az webapp create --resource-group appResourceGroup --plan nodeAppServicePlan --name demoNodeApp --runtime "NODE|6.9"`
 
 
