@@ -2,7 +2,7 @@
 
 Demo for deploying a web app to Azure.
 
-#Running the Application Locally
+# Running the Application Locally
 
 'npm start'
 
