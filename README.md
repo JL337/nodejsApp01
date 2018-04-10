@@ -10,5 +10,12 @@ To run locally use:
 
 Currently the node application will run on https://localhost:1000
 
+`
+# Bash
+zip -r myAppFiles.zip .
+# PowerShell
+Compress-Archive -Path * -DestinationPath myAppFiles.zip`
+
 ## Linking app with Azure
+
 
