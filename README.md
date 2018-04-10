@@ -15,6 +15,7 @@ Currently the node application will run on https://localhost:1000
 ### Zip the app with PowerShell
 `Compress-Archive -Path * -DestinationPath myAppFiles.zip`
 
+
 ## Linking app with Azure
 
 
